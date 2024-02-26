@@ -278,8 +278,8 @@ footer{
     font-family: sans-serif;
 }
 
-.footer .container{
-    margin: 20px;
+footer .container{
+    margin: 5rem;
   max-width: 300px;
   text-align: center;
 }
@@ -310,11 +310,26 @@ hr{
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
     
     /* padding: 30px 30px;
     margin: 10px 10px;
     flex-wrap: wrap; */
 }
 
+.para{
+    margin-bottom: 30px;
+    text-align: center;
+   
+}
 
 /* Footer end */
+
+@media only screen and (max-width: 768px){
+    .para{
+       margin-top: 10rem;
+       text-align: center;
+       display: none;
+       /* display: none; */
+    }
+}
